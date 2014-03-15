@@ -1,0 +1,14 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+env:
+  - TERM=dumb
+
+script:
+  - git clone --branch=master --depth=1 https://github.com/chunlinyao/chunlinyao.github.io.git output
+  - ./gradlew publish --info
+
+
+
