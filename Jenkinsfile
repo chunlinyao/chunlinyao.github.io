@@ -1,6 +1,9 @@
 pipeline {
   agent any
 
+    environment {
+        GRGIT_USER  = credentials('github-access-token')
+    }
   options {
     buildDiscarder(logRotator(numToKeepStr:'50'))
     timestamps()
@@ -11,7 +14,7 @@ pipeline {
       // Get some code from a GitHub repository
       steps {         
             dir("output") {
-                git url: 'https://github.com/chunlinyao/chunlinyao.github.io.git'
+                git url: 'https://github.com/chunlinyao/chunlinyao.github.io.git', branch: 'master'
             }
       }
     }
