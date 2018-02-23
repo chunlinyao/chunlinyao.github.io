@@ -23,7 +23,7 @@ pipeline {
       steps{
             script {
               if (isUnix()) {
-                sh "./gradlew --no-daemon publish"
+                sh "./gradlew --no-daemon --info publish"
               }
             }
       }

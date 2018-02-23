@@ -7,8 +7,10 @@ env:
   - TERM=dumb
 
 script:
-  - git clone --branch=master --depth=1 https://github.com/chunlinyao/chunlinyao.github.io.git output
+  - git clone --branch=master --depth=5 https://github.com/chunlinyao/chunlinyao.github.io.git output
   - ./gradlew publish --info
-
-
-
+  - git -C output status
+cache:
+  directories:
+    - $HOME/.gradle/caches
+    - $HOME/.gradle/wrapper
