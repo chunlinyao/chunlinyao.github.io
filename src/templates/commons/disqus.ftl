@@ -6,14 +6,12 @@
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 var disqus_shortname = '${config.site_disqus_shortname}';
-/*
 var disqus_config = function () {
-this.page.url = '${content.noExtensionUri!(content.uri!config.site_host)}';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = '${config.site_host}/${content.noExtensionUri!(content.uri!"")}';  // Replace PAGE_URL with your page's canonical URL variable
 <#if (content.disqus_identifier?has_content)>
 this.page.identifier = '${content.disqus_identifier}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 </#if>
 };
-*/
 
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
