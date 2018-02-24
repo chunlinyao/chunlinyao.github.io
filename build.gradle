@@ -31,7 +31,7 @@ gitPublish {
 
     // what to publish, this is a standard CopySpec
     contents {
-        //from 'CNAME'
+        from 'CNAME'
         from 'README.md'
     }
 
