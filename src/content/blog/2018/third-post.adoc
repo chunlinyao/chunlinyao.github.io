@@ -6,6 +6,7 @@ tags=blog, asciidoc
 status=published
 featuredimage=img/blog/sample-image.jpg
 featuredalt=JBake
+disqus_disabled=true
 ~~~~~~
 = Third Post
 Jonathan Bullock
