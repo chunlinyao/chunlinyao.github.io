@@ -15,7 +15,7 @@
 		<script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/highlight.pack.js"></script>
 		<script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/readingTime.js"></script>
 
-		<#if (config.site_disqus_shortname?has_content)>
+		<#if (config.site_disqus_shortname?has_content && (content.disqus_disabled!'false')?boolean == false)>
 			<script id="dsq-count-scr" src="//${config.site_disqus_shortname}.disqus.com/count.js" async></script>
 		</#if>
 		<#if (config.site_google_trackingid?has_content)>
