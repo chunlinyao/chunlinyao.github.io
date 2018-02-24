@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://yaochunlin.tk/404.html</loc>
+        <loc>https://chunlinyao.github.io/404.html</loc>
         <lastmod>2017-05-11</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/about.html</loc>
+        <loc>https://chunlinyao.github.io/about.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/pages/test.html</loc>
+        <loc>https://chunlinyao.github.io/pages/test.html</loc>
         <lastmod>2013-09-24</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/blog/2018/first-post.html</loc>
+        <loc>https://chunlinyao.github.io/blog/2018/first-post.html</loc>
         <lastmod>2018-07-24</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/blog/2018/fourth-post.html</loc>
+        <loc>https://chunlinyao.github.io/blog/2018/fourth-post.html</loc>
         <lastmod>2013-10-17</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/blog/2018/third-post.html</loc>
+        <loc>https://chunlinyao.github.io/blog/2018/third-post.html</loc>
         <lastmod>2013-09-26</lastmod>
     </url>
     <url>
-        <loc>http://yaochunlin.tk/blog/2018/second-post.html</loc>
+        <loc>https://chunlinyao.github.io/blog/2018/second-post.html</loc>
         <lastmod>2013-08-25</lastmod>
     </url>
 </urlset>
