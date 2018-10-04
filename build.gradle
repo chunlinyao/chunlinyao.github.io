@@ -8,6 +8,11 @@
   repositories {
     jcenter()
   }
+   
+    dependencies {
+        // Workaround https://github.com/jbake-org/jbake/issues/463
+        classpath 'com.orientechnologies:orientdb-core:2.2.36'
+    }
 }
 plugins {
     id 'org.jbake.site' version '1.2.0'
